@@ -20,7 +20,7 @@ class Search extends React.Component {
     };
 
     transitUpInput = (e) => {
-        if (e.key === 'Enter' || e.target.className === 'btn search-btn') {
+        if (e.key === 'Enter' || e.target.className === 'btn search-btn red darken-1') {
             this.setState(
                 {page: 1, searched: this.state.search},
                 () => { this.props.searchMovies(this.state.search, this.state.type, this.state.page)
