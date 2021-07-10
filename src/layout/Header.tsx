@@ -9,5 +9,4 @@ export const Header: React.FunctionComponent = () => {
                     </ul>
                 </div>
             </nav>
-
 };

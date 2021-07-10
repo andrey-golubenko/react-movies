@@ -3,23 +3,20 @@ export interface IMainProps {
     totalFound: number
 }
 
+interface ISearchData {
+    search: string,
+    searched: string,
+    page: number,
+    type: string
+}
+
 export interface IRadioBtnListProps {
-    searchData:  {
-        search: string,
-        searched: string,
-        page: number,
-        type: string
-    }
+    searchData: ISearchData
     handleRadioBtn: (selectedType: string) => void
 }
 
 export interface IPaginationProps {
-    searchData:  {
-        search: string,
-        searched: string,
-        page: number,
-        type: string
-    }
+    searchData:  ISearchData
     totalFound: number
     handlePage: (sign: string) => void
 }
@@ -36,6 +33,6 @@ export interface IMainMoviesProps {
     movies: IOneMovie[]
 }
 
-export interface CustomEvent extends React.MouseEvent {
+export interface ICustomEvent extends React.MouseEvent {
     key?: string
 }

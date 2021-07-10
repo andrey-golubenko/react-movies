@@ -18,5 +18,4 @@ export const Pagination: React.FunctionComponent <IPaginationProps> = (props) =>
                 onClick={() => {changePage('+')}}>Next Page<span>&#62;</span></button>
         </div>
     )
-
 };

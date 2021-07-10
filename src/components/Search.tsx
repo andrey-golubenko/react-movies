@@ -1,7 +1,7 @@
 import React, {useState, useRef} from 'react'
 import {RadioBtnList} from './RadioBtnList';
 import {Pagination} from './Pagination';
-import { IMainProps, CustomEvent } from '../interfaces'
+import { IMainProps, ICustomEvent } from '../interfaces'
 
 export const Search: React.FunctionComponent <IMainProps>  = (props) => {
     const [search, setSearch] = useState<string> ('');
@@ -23,7 +23,7 @@ export const Search: React.FunctionComponent <IMainProps>  = (props) => {
         setSearch(inputRef.current!.value);
     };
 
-    const transitUpInput = (event: React.KeyboardEvent | CustomEvent) => {
+    const transitUpInput = (event: React.KeyboardEvent | ICustomEvent) => {
         if (event.key  === 'Enter' || event.currentTarget.className === 'btn search-btn red darken-1') {
             setPage(1);
             setSearched(search);
@@ -58,9 +58,12 @@ export const Search: React.FunctionComponent <IMainProps>  = (props) => {
                                 type="search"
                                 value={ search }
                                 onChange={ handleInput }
-                                onKeyPress={ (event ) => transitUpInput(event) }
+                                onKeyPress={ transitUpInput }
                             />
-                            <button className="btn search-btn red darken-1" onClick={(event) => { transitUpInput(event) }}>Search</button>
+                            <button
+                                className="btn search-btn red darken-1"
+                                onClick={ transitUpInput }
+                            >Search</button>
                         </div>
                         <RadioBtnList
                             searchData={ searchData }

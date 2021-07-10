@@ -3,7 +3,7 @@ import {Header} from './layout/Header'
 import {Footer} from './layout/Foter'
 import {Main}   from './layout/Main';
 
-const App = () => {
+const App: React.FunctionComponent = () => {
   return (
       <>
           <Header />
