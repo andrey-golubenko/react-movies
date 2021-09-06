@@ -7,7 +7,7 @@ import { SingleMovie } from './pages/SingleMovie'
 
 const App: React.FC = () => {
   return (
-      <Router basename="/react-movie">
+      <Router basename="/react-movies">
           <Header />
               <main className="container content">
                   <Switch>
