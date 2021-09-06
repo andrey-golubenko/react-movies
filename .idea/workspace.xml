@@ -2,47 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02fc4bc5-9b6a-4851-a994-32004092e023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Asus.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Alert.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LoadableImage/LoadableImage.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LoadableImage/LoadableImage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MovieItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MovieList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pagination.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Preloader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RadioBtnList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Search.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/Foter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/image-placeholder.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SingleMovie.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actionCreatores.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/appReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/hooks.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/moviesReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/rootReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/searchReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1630195932435</updated>
       <workItem from="1630195935135" duration="85468000" />
-      <workItem from="1630707305505" duration="60037000" />
+      <workItem from="1630707305505" duration="60641000" />
     </task>
     <servers />
   </component>
