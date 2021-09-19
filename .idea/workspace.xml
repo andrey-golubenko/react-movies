@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02fc4bc5-9b6a-4851-a994-32004092e023" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/NotFound.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -45,13 +47,14 @@
     <property name="ts.external.directory.path" value="D:\Документы\React-courses\redux-movies\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Документы\React-courses\redux-movies\src\pages" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Документы\React-courses\redux-movies\src\pages" />
       <recent name="D:\Документы\React-courses\redux-movies\src" />
       <recent name="D:\Документы\React-courses\redux-movies\src\components" />
       <recent name="D:\Документы\React-courses\redux-movies" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Документы\React-courses\redux-movies\src\pages" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -68,7 +71,8 @@
       <workItem from="1630707305505" duration="63636000" />
       <workItem from="1631008900041" duration="637000" />
       <workItem from="1631020356463" duration="657000" />
-      <workItem from="1631229631334" duration="69000" />
+      <workItem from="1631229631334" duration="147000" />
+      <workItem from="1632049175189" duration="342000" />
     </task>
     <servers />
   </component>
